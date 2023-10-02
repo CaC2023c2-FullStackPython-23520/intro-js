@@ -21,6 +21,18 @@ function esPrimo(n) {
     return cantDivisores(n) === 2;
 }
 
+function esPrimo2(num) {
+    let i = 2;
+    let contDivisores = 0;
+    while (i <= n && contDivisores < 2) {
+        if (esMultiplo(num, i)) {
+            contDivisores++;
+        }
+        i++;
+    }
+    return contDivisores < 2;
+}
+
 // Programa principal
 let unNumero = leerEntero("Ingresá un entero");
 if ( esPrimo(unNumero) ) {
