@@ -127,7 +127,7 @@ const ingredientes = [
 /*const ingredientesBlancos = []
 for (let i = 0; i < ingredientes.length; i++) {
     const ingrediente = ingredientes[i];
-    if (ingrediente.precio === "blanco") {
+    if (ingrediente.color === "blanco") {
         ingredientesBlancos.push(ingrediente)
     }
 }

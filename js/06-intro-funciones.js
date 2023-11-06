@@ -8,7 +8,6 @@ function doble (n) {
     return n * 2;
 }
 
-
 // Programa principal
 let resultado = doble(siguiente(4));
 console.log(resultado);
